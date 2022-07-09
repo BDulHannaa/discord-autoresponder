@@ -1,0 +1,17 @@
+import discord
+
+client = discord.Client()
+
+@client.event 
+async def on_ready():
+  print('we have logged in as {0.user}'.format(client))
+
+@client.event
+async def on_message(message):
+  if message.author == client.user:
+    return
+
+  if message.content.startswith('[your message]'):
+    await message.channel.send('[message that the bot will send]')
+  
+client.run("[your bot's toke]")
