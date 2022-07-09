@@ -12,6 +12,6 @@ async def on_message(message):
     return
 
   if message.content.startswith('[your message]'):
-    await message.channel.send('[message that the bot will send]')
+    await message.channel.send('[message that the bot will reply]')
   
-client.run("[your bot's toke]")
+client.run("[your bot's token]")
