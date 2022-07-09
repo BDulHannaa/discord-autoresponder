@@ -1,6 +1,6 @@
 # discord-autoresponder
 
-# discord auto replying bot's code
+*discord auto replying bot's code*
 
 you dont need to download the zip file
 
