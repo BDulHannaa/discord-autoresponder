@@ -8,7 +8,7 @@ just copy the code from the Code file (https://github.com/BDulHannaa/discord-aut
 
 paste it and add what messages you want to set up 
 
-(you can add more more auto reply able messages by copy-pasting line 14, 15)
+(you can add more auto reply able messages by copy-pasting line 14, 15)
 
 message me if you're facing any problem
 
